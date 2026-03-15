@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local training artifacts
+*.pt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
