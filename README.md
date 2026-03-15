@@ -40,3 +40,10 @@ python -m src.evaluate
 ```bash
 pytest
 ```
+
+## Run with Docker
+
+```bash
+docker build -t trojan-traffic-ml .
+docker run --rm trojan-traffic-ml
+```
